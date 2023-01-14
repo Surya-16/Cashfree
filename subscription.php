@@ -104,6 +104,10 @@
 	 		<table class="table table-hover">
 			    <tbody>
 			      <tr>
+			        <td>Data</td>
+			        <td><?php echo $data; ?></td>
+			      </tr>
+			      <tr>
 			        <td>cf SubReferenceId</td>
 			        <td><?php echo $cf_subReferenceId; ?></td>
 			      </tr>
