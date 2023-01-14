@@ -11,7 +11,7 @@
 	<h1 align="center">Subscription Response</h1>	
 
 	<?php  
-		 $secretkey = "f72b6e89f2913696e6f621bc8f7e4ebc555d261e";
+		 $secretkey = "{{SecretKey}}";
 		 $cf_subReferenceId = $_POST["cf_subReferenceId"];
 		 $cf_subscriptionId = $_POST["cf_subscriptionId"];
 		 $cf_authAmount = $_POST["cf_authAmount"];
